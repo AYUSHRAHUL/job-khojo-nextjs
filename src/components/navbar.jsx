@@ -2,6 +2,7 @@ import { getAuthSession } from "@/lib/auth";
 import userRole from "@/utils/role";
 import { Briefcase } from "lucide-react";
 import Link from "next/link";
+import LogoutDropdown from "./logout-dropdown";
 
 export default async function Navbar({ props }) {
   const role = await userRole();
@@ -40,13 +41,15 @@ export default async function Navbar({ props }) {
         ))}
       </nav>
 
-      {!role && (
+      {!role ? (
         <Link
           className="ml-6 px-4 py-2 rounded-full bg-white text-indigo-600 font-semibold text-sm shadow-md hover:bg-yellow-300 hover:text-indigo-900 transition duration-300"
           href="/sign-in"
         >
           Sign in
         </Link>
+      ) : (
+        <LogoutDropdown />
       )}
     </header>
   );

@@ -11,16 +11,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(auth)/sign-in/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sign-in/page.js"
-    ],
-    "/(auth)/sign-up/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sign-up/page.js"
-    ],
     "/onboarding/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -31,20 +21,30 @@
       "static/chunks/main-app.js",
       "static/chunks/app/onboarding/layout.js"
     ],
-    "/my-applications/page": [
+    "/(auth)/sign-in/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/my-applications/page.js"
+      "static/chunks/app/(auth)/sign-in/page.js"
     ],
-    "/jobs/page": [
+    "/(auth)/sign-up/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/jobs/page.js"
+      "static/chunks/app/(auth)/sign-up/page.js"
     ],
-    "/jobs/layout": [
+    "/applications/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/jobs/layout.js"
+      "static/chunks/app/applications/page.js"
+    ],
+    "/applications/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/applications/layout.js"
+    ],
+    "/applications/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/applications/[slug]/page.js"
     ],
     "/settings/page": [
       "static/chunks/webpack.js",

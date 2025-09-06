@@ -24,15 +24,15 @@
         "app/onboarding/page": "action-browser"
       }
     },
-    "80d40e7d05dd5559cca70aee5680a27bbb8b2d30": {
+    "ead3ecd597735343719e1f6310cbc54f4096d0d8": {
       "workers": {
-        "app/jobs/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Crahul%5C%5CDesktop%5C%5Cprojet%5C%5Cjob-portal%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5CfetchJobsFilter.js%22%2C%5B%22fetchJobsFilter%22%5D%5D%5D&__client_imported__=true!"
+        "app/applications/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Crahul%5C%5CDesktop%5C%5Cprojet%5C%5Cjob-portal%5C%5Csrc%5C%5Capp%5C%5Cactions%5C%5Ce%5C%5CselectCandidate.js%22%2C%5B%22selectCandidate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/jobs/page": "action-browser"
+        "app/applications/[slug]/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "6Wi/4BSj7piQfFQK9608FAGfzmcPLdzscQyZoeExSWU="
+  "encryptionKey": "T66KxwCWyzfPy4E9yXjVOCyYANha+2aG0tAfi8AKtZo="
 }
